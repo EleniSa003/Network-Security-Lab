@@ -1,0 +1,34 @@
+PORT SCANNING RESULTS
+Date: 5 November 2026
+Tool: Nmap 7.98
+Environment: macOS (Apple Silicon)
+Target: Authorised local router (IP anonymised)
+Scan type: TCP Connect Scan (-sT)
+
+PORT       STATE       SERVICE
+21/tcp     closed      ftp
+22/tcp     closed      ssh
+53/tcp     open        domain
+80/tcp     open        http
+443/tcp    open        https
+8080/tcp   closed      http-proxy
+
+SUMMARY
+- Total ports scanned: 6
+- Open ports: 3
+- Closed ports: 3
+- Scan duration: 2.65 seconds
+
+FINDINGS
+- Port 53: DNS service was accessible.
+- Port 80: HTTP service was accessible.
+- Port 443: HTTPS service was accessible.
+- Ports 21, 22 and 8080 were closed.
+- Open ports do not necessarily indicate vulnerabilities.
+- Service names are Nmap's standard port associations,
+  not independently verified service identities.
+
+SECURITY NOTE
+This scan was conducted for educational purposes
+on an authorised local network.
+The target IP address has been removed for privacy.

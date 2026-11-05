@@ -1,0 +1,19 @@
+Network Discovery - Nmap 7.98
+Date: 5 November 2026
+Environment: macOS (Apple Silicon)
+Tool: Nmap
+Scan type: Host discovery (-sn)
+
+Network: Private /24 local network
+IP addresses scanned: 256
+Active hosts discovered: 5
+Scan duration: 21.62 seconds
+
+Findings:
+- Five active hosts were identified on the local network.
+- Host discovery was performed without TCP port scanning.
+- Device names and IP addresses have been omitted for privacy.
+
+Purpose:
+To practise identifying active devices within an authorised
+local network using Nmap.
